@@ -1,0 +1,33 @@
+# Environment variables and secrets
+.env
+*.env
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+
+# Chrome persistent profiles and session cookies/tokens
+slam_chrome_profile/
+*.pma
+
+# Local state, screenshots, and logs
+screenshots/
+logs/
+state/
+*.log
+*.sqlite
+*.db
+
+# Temporary inspect files
+*_dump.json
+*_inspect.html
+data/
+*.bak
+# Backup files
+*.bak
+*_backup_*.py
